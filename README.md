@@ -7,9 +7,9 @@ A web calculator made entirely with pure Javascript, CSS and HTML (no frameworks
 </p>
 
 ## Table Of Contents
-- [Description](#Description)
-- [Getting Started](#Getting Started)
-- [Authors](#Authors)
+- [Description](#description)
+- [Getting Started](#getting-started)
+- [Authors](#authors)
 
 ## Description
 aa
