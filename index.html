@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header id="upmenu" class="upmenu">
+        <div id="info">
+            <h1>Vanilla JS Calculator</h1>
+            <ul>
+                <li>[E] See Menu</li>
+                <li>[P] PI</li>
+                <li>[Z] Sin</li>
+                <li>[C] Cos</li>
+                <li>[T] Tan</li>
+                <li>[U] Change Number Signal</li>
+                <li>[R] Percentage</li>
+                <li>[S] Square</li>
+                <li>[Q] Square Root</li>
+                <li>[X] Ten Exponent</li>
+                <li>[Esc] Clear All</li>
+                <li>[Backspace] Delete</li>
+                <li>[Enter] or [=] See Result</li>
+                <li>[!] Factorial</li>
+                <li>[\] Exponent</li>
+            </ul>
+        </div>
+        <button id="pullarrow" class=" arrow pullarrow" onclick="expandOptions()"></button>
+    </header>
+    <section id="calculator">
+        <div id="calc" class="format"></div>
+        <div id="results" class="format">0</div>
+        <div id="buttons">
+            <div id="line">
+                <button id="clear" class="btn grey" onclick="clr()">C</button>
+                <button id="unsigned" class="btn grey" onclick="operations('unsigned')">+/-</button>
+                <button id="pct" class="btn grey" onclick="operations('pct')">%</button>
+                <button id="divid" class="btn purple" onclick="operations('divid')">÷</button>
+            </div>
+            <div id="line">
+                <button id="seven" class="btn grey" onclick="replaceable('seven')">7</button>
+                <button id="eight" class="btn grey" onclick="replaceable('eight')">8</button>
+                <button id="nine" class="btn grey" onclick="replaceable('nine')">9</button>
+                <button id="times" class="btn purple" onclick="operations('times')">X</button>
+            </div>
+            <div id="line">
+                <button id="four" class="btn grey" onclick="replaceable('four')">4</button>
+                <button id="five" class="btn grey" onclick="replaceable('five')">5</button>
+                <button id="six" class="btn grey" onclick="replaceable('six')">6</button>
+                <button id="minus" class="btn purple" onclick="operations('minus')">-</button>
+            </div>
+            <div id="line">
+                <button id="one" class="btn grey" onclick="replaceable('one')">1</button>
+                <button id="two" class="btn grey" onclick="replaceable('two')">2</button>
+                <button id="three" class="btn grey" onclick="replaceable('three')">3</button>
+                <button id="plus" class="btn purple" onclick="operations('plus')">+</button>
+            </div>
+            <div id="line">
+                <button id="zero" class="btn grey" onclick="replaceable('zero')">0</button>
+                <button id="dot" class="btn grey" onclick="operations('dot')">.</button>
+                <button id="del" class="btn grey" onclick="dlt()">del</button>
+                <button id="equals" class="btn yellow" onclick="operations('equals')">=</button>
+            </div>
+
+            <aside id="container">
+                <div id="sidemenu" class="sidemenu">
+                    <button id="arrow" class="arrow leftfacing" onclick="expand()"></button>
+                    <div id="sideicons">
+                        <div id="line">
+                            <button class="btn" id="sin" onclick="operations('sin')">sin</button>
+                            <button class="btn" id="cos" onclick="operations('cos')">cos</button>
+                            <button class="btn" id="tan" onclick="operations('tan')">tan</button>
+                        </div>
+                        <div id="line">
+                            <button class="btn" id="square" onclick="operations('square')">x²</button>
+                            <button class="btn" id="power" onclick="operations('power')">^</button>
+                            <button class="btn" id="ten" onclick="operations('ten')">10^x</button>
+                        </div>
+                        <div id="line">
+                            <button class="btn" id="opening" onclick="replaceable('opening')">(</button>
+                            <button class="btn" id="close" onclick="replaceable('close')">)</button>
+                            <button class="btn" id="fat" onclick="operations('fat')">!</button>
+                        </div>
+                        <div id="line">
+                            <button class="btn" id="pi" onclick="operations('pi')">𝜋</button>
+                            <button class="btn" id="sqrt" onclick="operations('sqrt')">√</button>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+</body>
+
+</html>
