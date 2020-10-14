@@ -8,8 +8,8 @@ A web calculator made entirely with pure Javascript, CSS and HTML (no frameworks
 
 ## Table Of Contents
 - [Description](#Description)
-- b
-- c
+- [Getting Started](Getting Started)
+- [Authors](Authors)
 
 ## Description
 
