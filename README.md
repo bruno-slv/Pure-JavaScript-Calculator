@@ -8,12 +8,9 @@ A web calculator made entirely with pure Javascript, CSS and HTML (no frameworks
 
 ## Table Of Contents
 - [Description](#description)
-- [Getting Started](#getting-started)
 - [Authors](#authors)
 
 ## Description
-aa
-## Getting Started
-aa
+    A calculator app with a lot of built-in functionalities(for example, the four operations and exponentiation) and a sidemenu to access extra operations.
 ## Authors
 - bruno-slv
