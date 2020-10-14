@@ -3,7 +3,7 @@
 A web calculator made entirely with pure Javascript, CSS and HTML (no frameworks).
 
 <p align="center">
-    <img src="calc.gif" width="auto" height="300px">
+    <img src="calc.gif" width="auto" height="450px">
 </p>
 
 ## Table Of Contents
