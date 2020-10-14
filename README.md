@@ -7,6 +7,12 @@ A web calculator made entirely with pure Javascript, CSS and HTML (no frameworks
 </p>
 
 ## Table Of Contents
-- a
+- [Description](#Description)
 - b
 - c
+
+## Description
+
+## Getting Started
+
+## Authors
