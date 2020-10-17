@@ -62,8 +62,8 @@ First of all, the original calculator design was made by Pramod R H, and the ori
 
 Finally, the list of the necessary bibliography for the project is:
 - [MDN](https://developer.mozilla.org/)
-- [W3Schools](www.w3schools.com)
-- [Google Fonts](fonts.google.com)
+- [W3Schools](https://www.w3schools.com)
+- [Google Fonts](https://fonts.google.com)
 ## Technologies
 
 - ECMAScript 6
