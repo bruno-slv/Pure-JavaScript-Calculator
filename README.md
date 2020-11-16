@@ -11,7 +11,6 @@ A web calculator made entirely with pure JavaScript, CSS and HTML (no frameworks
 - [Description](#description)
     - [Abstract](#Abstract)
     - [Features](#Features)
-        - [Main Menu](#Main-Menu)
 - [Authors](#authors)
 - [Acknowledgements](#Acknowledgements)
 - [Technologies](#Technologies)
@@ -23,7 +22,6 @@ A simple calculator app made with pure JavaScript.
 
 ### Features
 
-#### Main Menu
 |Name|Description|
 |-|-|
 |Sum|The mathematic sum operation|
