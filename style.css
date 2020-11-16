@@ -9,7 +9,6 @@ section#calculator{
     box-shadow: 2px 2px 2px rgba(30, 35, 38, 0.686);
     background-color: #f0f0f0;
 }
-
 .format{
     width: 88%;
     text-align: end;
@@ -27,20 +26,6 @@ div#calc{
     padding-top: 10px;
     overflow: auto;
     height: 45px;
-}
-::-webkit-scrollbar{
-    width: 10px;
-    height: 8px;
-}
-::-webkit-scrollbar-track-piece{
-    background-color: none;
-}
-::-webkit-scrollbar-thumb{
-    background-color:  #929394;
-    border-radius: 6px;
-}
-::-webkit-scrollbar-thumb:hover{
-    background-color:  #abacae;
 }
 div#line{
     display: flex;
@@ -71,118 +56,15 @@ div#line{
     background-color: #1e2326;
     border: 1px solid #282d30;
 }
-.purple{
-    background-color: #5e4bb6;
-    border: 1px solid #6552bb;
+.blue{
+    background-color: #247BA0;
+    border: 1px solid #1d98cc;
 }
-.yellow{
-    background-color: #ffbf0b;
-    border: 1px solid #fdbc09;
-}
-
-.sidemenu{
-    position: relative;
-    width: 18px;
-    height: 495px;
-    background-color: transparent;
-    display: flex;
-    margin-top: -495px;
-    margin-left: 380px;
-    align-items: center;
-    
-}
-.sidemenu:hover{
-    width: 20px;
-}
-div#sideicons{
-    width: 300px;
-    height: 495px;
-    margin-left: 7px;
-    display: none;
-    background-color: #a394e8;
-}
-aside#container{
-    direction: rtl;
-}
-aside#container > *{
-    direction: ltr;
-}
-.open{
-    position: relative;
-    width: 320px;
-    height: 495px;
-    background-color: #7761da;
-    color: white;
-    display: flex;
-    margin-top: -495px;
-    margin-left: 380px;
-    align-items: center;
+.orange{
+    background-color: #ff8a15;
+    border: 1px solid #ff9c39;
 }
 
-.arrow{
-    outline: none;
-    width: 12px;
-    height: 12px;
-    color: white;
-    border-top: 2px solid white;
-    border-left: 2px solid white;
-    margin-top: -10px;
-    margin-left: 7px;
-}
-.leftfacing{
-    transform: rotate(-45deg);
-}
-.arrow:hover{
-    border-top: 2px solid #b9acf0;
-    border-left: 2px solid #b9acf0;
-}
-.pullarrow{
-    border-top: 2px solid #abafb1;
-    border-left: 2px solid #abafb1;
-    transform: rotate(-135deg);
-}
-.pullarrow:hover{
-    border-top: 2px solid #515455;
-    border-left: 2px solid #515455;
-}
-.upmenu{
-    position: absolute;
-    height: 22px;
-    width: 400px;
-    display: flex;
-    align-items: center;
-}
-.upmenu:hover{
-    height: 25px;
-}
-.openmenu{
-    position: absolute;
-    width: 400px;
-    background-color: #141515;
-}
-div#info{
-    margin: -16px 0 6px 0;
-    display: none;
-    background-color: #464646;
-    color: white;
-    padding: 12px;   
-}
-header ul{
-    list-style: none;
-    margin: 0;
-    padding: 8px 0;
-}
-header ul li{
-   font-size: 14px;
-}
-header h1{
-    margin: 0;
-    font-size: large;
-    margin-bottom: 8px;
-}
-header p{
-    margin-top: 0;
-}
 button{
     cursor: pointer;
     border: transparent;
